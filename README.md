@@ -44,6 +44,74 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/39pjafPWhhyPBBAgoYNv9f/Bol%C3%A3o-da-Copa-(Community)?node-id=316%3A2316). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
+
+## 🚀 Recomendações
+
+## Server
+
+entre na pasta `server` presente no diretório raiz, e rode o comando para instalar as dependências:
+
+```bash
+npm i
+```
+
+Agora para criar o banco de dados
+
+Primeiramente crie um arquivo na raiz da pasta `server` chamado .env e depois cole 
+
+```bash
+   DATABASE_URL="file:./dev.db"
+```
+depois 
+
+```bash
+npx prisma migrate dev
+```
+
+Por fim para iniciar o servidor, rode o comando:
+
+```bash
+npm run dev
+```
+
+## Web
+
+Para rodar o projeto web, entre na pasta `web` presente no diretório raiz, e rode o comando para instalar as dependências:
+
+```bash
+npm i
+```
+
+Agora para iniciar o projeto, rode o comando:
+
+```bash
+npm run dev
+```
+
+Para utilizar o projeto em modo estático (com uso de cache e atualização dos dados de 10 em 10 minutos):
+
+```bash
+npm run start
+```
+
+> Recomendado: não esqueça de iniciar o servidor antes de iniciar o projeto web
+## Mobile
+
+Para rodar o projeto mobile você precisará baixar o app [Expo Go](https://expo.dev/client).
+Após baixar o app, entre na pasta `mobile` presente no diretório raiz, e rode o comando para instalar as dependências:
+
+```bash
+npm i
+```
+
+Agora para iniciar o projeto, rode o comando:
+
+```bash
+npx expo start
+```
+
+> Atenção: não esqueça de iniciar o servidor antes de iniciar o projeto mobile
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
