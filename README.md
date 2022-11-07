@@ -57,7 +57,7 @@ npm i
 
 Agora para criar o banco de dados
 
-Primeiramente crie um arquivo na raiz da pasta `server` chamado .env e depois cole 
+Primeiramente crie um arquivo na raiz da pasta `server` chamado `.env` e depois cole nesse arquivo
 
 ```bash
    DATABASE_URL="file:./dev.db"
@@ -76,7 +76,7 @@ npm run dev
 
 ## Web
 
-Para rodar o projeto web, entre na pasta `web` presente no diretório raiz, e rode o comando para instalar as dependências:
+Para rodar o projeto web, entre na pasta `web` e rode o comando para instalar as dependências:
 
 ```bash
 npm i
@@ -88,29 +88,25 @@ Agora para iniciar o projeto, rode o comando:
 npm run dev
 ```
 
-Para utilizar o projeto em modo estático (com uso de cache e atualização dos dados de 10 em 10 minutos):
-
-```bash
-npm run start
-```
-
-> Recomendado: não esqueça de iniciar o servidor antes de iniciar o projeto web
 ## Mobile
 
 Para rodar o projeto mobile você precisará baixar o app [Expo Go](https://expo.dev/client).
-Após baixar o app, entre na pasta `mobile` presente no diretório raiz, e rode o comando para instalar as dependências:
+Após baixar o app, entre na pasta `mobile` e rode o comando para instalar as dependências:
 
 ```bash
 npm i
 ```
 
-Agora para iniciar o projeto, rode o comando:
+Agora para iniciar o projeto:
 
 ```bash
 npx expo start
 ```
 
-> Atenção: não esqueça de iniciar o servidor antes de iniciar o projeto mobile
+>Sempre que iniciar o `Web` ou `Mobile` lembre-se de estar com o `Server` iniciado!
+
+
+
 
 ## :memo: Licença
 
