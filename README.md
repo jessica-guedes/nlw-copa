@@ -39,7 +39,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
- Um bolão da Copa, uma aplicação completa, web e mobile, pra garantir a diversão da família e dos amigos durante os jogos.
+ Um bolão da Copa, uma aplicação completa, web e mobile, pra garantir a diversão da família e dos amigos durante os jogos. O projeto visa o desenvolvimento de uma plataforma para que o usuários possam criar bolões para a copa do mundo de 2022. A aplicação WEB é uma interface simples e direta, permitindo o usuário conhecer o projeto e criar os seus bolões. Já a aplicação mobile desempenha as demais funcionalidades, como por exemplo, participar de bolões, realizar palpites, compartilhamento de bolões, entre outros.
 
 ## 🔖 Layout
 
