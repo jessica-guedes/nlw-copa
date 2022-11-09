@@ -39,11 +39,74 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
- Um bolão da Copa, uma aplicação completa, web e mobile, pra garantir a diversão da família e dos amigos durante os jogos.
-
+ Um bolão da Copa, uma aplicação completa, web e mobile, pra garantir a diversão da família e dos amigos durante os jogos. 
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/39pjafPWhhyPBBAgoYNv9f/Bol%C3%A3o-da-Copa-(Community)?node-id=316%3A2316). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
+
+## 🚀 Recomendações
+
+## Server
+
+entre na pasta `server` presente no diretório raiz, e rode o comando para instalar as dependências:
+
+```bash
+npm i
+```
+
+Agora para criar o banco de dados
+
+Primeiramente crie um arquivo na raiz da pasta `server` chamado `.env` e depois cole nesse arquivo
+
+```bash
+   DATABASE_URL="file:./dev.db"
+```
+depois 
+
+```bash
+npx prisma migrate dev
+```
+
+Por fim para iniciar o servidor, rode o comando:
+
+```bash
+npm run dev
+```
+
+## Web
+
+Para rodar o projeto web, entre na pasta `web` e rode o comando para instalar as dependências:
+
+```bash
+npm i
+```
+
+Agora para iniciar o projeto, rode o comando:
+
+```bash
+npm run dev
+```
+
+## Mobile
+
+Para rodar o projeto mobile você precisará baixar o app [Expo Go](https://expo.dev/client).
+Após baixar o app, entre na pasta `mobile` e rode o comando para instalar as dependências:
+
+```bash
+npm i
+```
+
+Agora para iniciar o projeto:
+
+```bash
+npx expo start
+```
+
+>Sempre que iniciar o `Web` ou `Mobile` lembre-se de estar com o `Server` iniciado!
+
+
+
 
 ## :memo: Licença
 
